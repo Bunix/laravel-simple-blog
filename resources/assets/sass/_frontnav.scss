@@ -1,0 +1,25 @@
+
+$line-color:#ccc;
+$bg-light:#fff;
+$bg-body:#eee;
+$bg-transparent:transparent;
+html body{
+    background:$bg-body;
+}
+
+.header-nav{
+    padding:3px 0;
+    background:$bg-light;
+}
+.nav-item{
+    padding:10px 0;
+}
+.nav-link{
+     color:#000;
+}
+.nav-link.active{
+    color:orange !important;
+}
+.nav-item:hover .nav-link{
+    color:orange !important;
+}

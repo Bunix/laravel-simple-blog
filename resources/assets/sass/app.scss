@@ -1,0 +1,20 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+@import "~font-awesome/scss/font-awesome.scss";
+
+// Variables
+//@import "variables";
+
+//import custom styles
+@import "frontnav";
+
+//admin
+@import "dashnav";
+
+//errors
+@import "errors";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
